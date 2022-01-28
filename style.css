@@ -1,0 +1,99 @@
+#search-icon {
+    right: .75rem;
+    top: .65rem;
+    width: 18px;
+}
+
+#search-form:focus-within #search-icon{
+    display: none;
+}
+
+input[type="search"] {
+    border-radius: 18px;
+    background: #F8F8F8;
+    border: none;
+}
+
+input[type="search"]:focus {
+    box-shadow: .5px .5px 5px #d1d1d1;
+    background: #e6e6e6;
+    border: 0;
+    outline: none;
+}
+
+.orange-bg{
+    background-color: #feeae9;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
+}
+
+.categories h1 {
+    color: whitesmoke
+}
+
+.middle-section {
+    background-color: #F8F8F8;
+}
+
+.shoes .card .card-text {
+    height: 80px;
+}
+
+.backpack .card .card-text {
+    height: 100px;
+}
+
+.card-img-top {
+    height: 250px;
+    width: auto;
+}
+
+
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe{
+    height: 400px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
